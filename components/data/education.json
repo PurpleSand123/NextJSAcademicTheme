@@ -1,0 +1,22 @@
+[
+  {
+    "degree": "M.S. in Electrical Engineering",
+    "institution": "KAIST (Korea Advanced Institute of Science and Technology)",
+    "location": "Daejeon, S.Korea",
+    "period": "Mar. 2020 - Mar. 2022",
+    "bullets": [
+      "Advisor: Dong Eui Chang.",
+      "Conducted research on reinforcement learning and autonomous driving for drones in the Control Lab."
+    ]
+  },
+  {
+    "degree": "B.S. in Mechanical Engineering",
+    "institution": "KAIST (Korea Advanced Institute of Science and Technology)",
+    "location": "Daejeon, S.Korea",
+    "period": "Mar. 2015 - Mar. 2020",
+    "bullets": [
+      "Developed an autonomous driving robot for library inventory management as a graduation project."
+    ]
+  }
+]
+

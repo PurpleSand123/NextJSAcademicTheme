@@ -1,0 +1,24 @@
+[
+  {
+    "category": "International",
+    "name": "Outstanding Paper Awards",
+    "description": "NeurIPS 2024 Workshop Open-World Agents",
+    "organization": "Vancouver, Canada",
+    "year": "2024"
+  },
+  {
+    "category": "Domestic",
+    "name": "Grand Prize",
+    "description": "Autonomous Drone Competition hosted by the Defense Acquisition Program Administration",
+    "organization": "Daejeon, S.Korea",
+    "year": "2020"
+  },
+  {
+    "category": "Scholarship",
+    "name": "National Excellence Scholarship (Natural Sciences and Engineering)",
+    "description": "Covers admission fee, full tuition, and additional support for study grant and living expenses",
+    "organization": "Korea Student Aid Foundation (KOSAF)",
+    "year": "2015 - 2018"
+  }
+]
+

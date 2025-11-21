@@ -36,7 +36,7 @@ const PublicationItem = ({ publication, index }: Props): JSX.Element => {
         />
       )}
       <div className="flex-1">
-        <p className="text-sm text-black">
+        <p className="text-sm text-black dark:text-white">
           <span className="mr-1">[{index}]</span>
           <span>{authorsText}</span>
           {!showAllAuthors && hasHiddenAuthors && (
@@ -64,13 +64,13 @@ const PublicationItem = ({ publication, index }: Props): JSX.Element => {
             </>
           )}
         </p>
-        <p className="text-base text-black">
+        <p className="text-base text-black dark:text-white">
           <b>
             <i>{publication.title}</i>
           </b>
         </p>
-        <p className="text-sm text-black">{publication.conference}</p>
-        <p className="text-black flex justify-end text-sm font-semibold mt-2 flex-wrap gap-x-2">
+        <p className="text-sm text-black dark:text-white">{publication.conference}</p>
+        <p className="text-black dark:text-white flex justify-end text-sm font-semibold mt-2 flex-wrap gap-x-2">
           {publication.links.map((linkItem: any, idx: any) => (
             <ExtLink href={linkItem.url} key={idx}>
               [{linkItem.name}]

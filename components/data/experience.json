@@ -1,0 +1,36 @@
+[
+  {
+    "role": "Senior Research Scientist",
+    "company": "Maum AI",
+    "location": "Seongnam, S.Korea",
+    "period": "Nov. 2024 - Present",
+    "bullets": [
+      "Leveraged 12 H100 nodes and 400 hours of human expert data for training, and led its application to an orchard pesticide spraying robot for commercialization.",
+      "Conducted research to improve Sim2Real performance and developed the data pipeline and inference infrastructure necessary for actual commercialization.",
+      "Developed a pipeline for collecting human intervention data, achieving 97% evaluation performance."
+    ]
+  },
+  {
+    "role": "Machine Learning Researcher",
+    "company": "Maum AI",
+    "location": "Seongnam, S.Korea",
+    "period": "May 2024 - Oct. 2024",
+    "bullets": [
+      "Initiated research and laid the fundamental conceptual framework for a general-purpose foundation model in robotics and autonomous driving.",
+      "Designed and implemented evaluation tasks within Nvidia Isaac simulation environments, which were subsequently validated through real-world application.",
+      "Developed and optimized the entire pipeline for large-scale data collection, efficient model training, and comprehensive evaluation."
+    ]
+  },
+  {
+    "role": "Machine Learning Researcher",
+    "company": "Deargen Inc.",
+    "location": "Seoul, S.Korea",
+    "period": "Apr. 2022 - Apr. 2024",
+    "bullets": [
+      "Developed the overall Drug Target Interaction (DTI) model architecture and conducted data crawling and processing.",
+      "Created a fine-tuning framework and provided services to an international big pharma corporation.",
+      "Developed a reinforcement learning model to enhance pocket-conditioned 3D molecule generation."
+    ]
+  }
+]
+

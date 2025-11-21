@@ -1,26 +1,28 @@
-import ExtLink from './ExtLink'
-import data from './data/personalInfo.json'
+import data from './data/education.json';
 
 const Education = (): JSX.Element => {
-    return (
-        <section className="grid" id="education">
-            <h2 className="text-xl font-bold mt-12 mb-4">Education</h2>
-            <p className = "text-base ml-4 text-gray-700">
-                🐸 &nbsp;was at &nbsp;
-                {
-                    data.education.map((education, index) => {
-                        if (index == 0){
-                            return <ExtLink href={education.link} key={index}>{education.name}</ExtLink>
-                        }else{
-                            return <ExtLink href={education.link} key={index}>, {education.name}</ExtLink>
-                        }
-                    })
-                }
+  return (
+    <section className="grid w-full" id="education">
+      <h2 className="text-xl font-bold mt-12 mb-4">Education</h2>
+      <div className="space-y-4">
+        {data.map((item: any, index: number) => (
+          <div key={index} className="border-l-2 border-gray-200 pl-4">
+            <h3 className="font-semibold text-gray-900">{item.degree}</h3>
+            <p className="text-xs text-gray-500">
+              {item.institution} &middot; {item.location} &middot; {item.period}
             </p>
-        </section>
-    );
+            {item.bullets && item.bullets.length > 0 && (
+              <ul className="mt-2 list-disc list-inside text-sm text-gray-700 space-y-1">
+                {item.bullets.map((bullet: string, bulletIndex: number) => (
+                  <li key={bulletIndex}>{bullet}</li>
+                ))}
+              </ul>
+            )}
+          </div>
+        ))}
+      </div>
+    </section>
+  );
 };
-
-
 
 export default Education;

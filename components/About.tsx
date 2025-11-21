@@ -1,6 +1,7 @@
 import Image from 'next/image';
 
 import ExtLink from './ExtLink';
+import SupportingBox from './SupportingBox';
 import ProfileImage from './ProfileImage';
 import personalInfo from './data/personalInfo.json';
 
@@ -46,7 +47,10 @@ const About = (): JSX.Element => {
           <p className="text-sm text-gray-600 mb-2">
             Research Interest: {personalInfo.about.interest}
           </p>
-          <p className="text-sm">✉️ {personalInfo.about.email}</p>
+          <div className="flex items-center justify-between mt-2">
+            <p className="text-sm">✉️ {personalInfo.about.email}</p>
+            <SupportingBox />
+          </div>
         </div>
       </div>
     </section>
