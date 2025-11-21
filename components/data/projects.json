@@ -5,6 +5,11 @@
     "img": "/images/projects/sprayer.png"
   },
   {
+    "title": "CostNav: A Navigation Benchmark for Cost-Aware Evaluation of Embodied Agents",
+    "description": "CostNav supports a wide range of robot platforms and diverse outdoor environments, and evaluates navigation policies with a unified cost model that captures SLA compliance, operational cost, profitability, and break-even time. The toolkit enables scalable variation in robots, payloads, maps, and cloud-inference settings, and supports both learning-based and rule-based navigation stacks—making it easy to prototype and compare cost-aware policies without manual tuning for each scenario.",
+    "img": "/images/projects/costnav.png"
+  },
+  {
     "title": "D2E - Desktop to Embodied AI",
     "description": "Scaled vision-action pretraining by leveraging desktop and gaming data to transfer skills to physical robotics tasks. Submitted to ICLR 2026.",
     "img": "/images/projects/d2e.png"
