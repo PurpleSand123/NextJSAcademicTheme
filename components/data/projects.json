@@ -1,25 +1,47 @@
 [
   {
-    "title": "CANVAS - Commonsense-Aware Navigation System",
-    "description": "A vision-language-action model for intuitive robot navigation with commonsense reasoning. Accepted at ICRA 2025 and won Outstanding Paper Award at NeurIPS 2024 Workshop.",
-    "img": "/images/projects/rules.png"
+    "title": "General-Purpose Foundation Model for Robotics",
+    "description": "Applied a VLA model to Special-Purpose Vehicles (SPVs), achieving production-level deployment of a general-purpose foundation model for robotics and autonomous driving at Maum AI.",
+    "img": "/images/projects/sprayer.png"
   },
-
   {
     "title": "D2E - Desktop to Embodied AI",
-    "description": "Scaling vision-action pretraining using desktop and gaming data for transfer to physical robotics tasks. Submitted to ICLR 2026.",
-    "img": "/images/projects/quidditch.png"
+    "description": "Scaled vision-action pretraining by leveraging desktop and gaming data to transfer skills to physical robotics tasks. Submitted to ICLR 2026.",
+    "img": "/images/projects/d2e.png"
   },
-
   {
-    "title": "General-Purpose Foundation Model for Robotics",
-    "description": "Research on developing a foundation model for robotics and autonomous driving at Maum AI, with evaluation in Nvidia Isaac simulation environments.",
-    "img": "/images/projects/rules.png"
+    "title": "Vision Language Action model for navigation (SketchDrive)",
+    "description": "Developed a Vision-Language-Action model for intuitive robot navigation enabling commonsense reasoning. Accepted to ICRA 2025 and received the Outstanding Paper Award at the NeurIPS 2024 Workshop.",
+    "img": "/images/projects/canvas.png"
   },
-
+  {
+    "title": "EditCrafter: Tuning‑free High‑Resolution Image Editing via Pretrained Diffusion Model",
+    "description": "Proposed EditCrafter, a tuning-free high-resolution image editing method leveraging pre-trained text-to-image diffusion models. Addressed challenges in applying diffusion models to arbitrary aspect ratios and resolutions exceeding training data limits via a streamlined editing pipeline.",
+    "img": "/images/projects/editcrafter.png"
+  },
+  {
+    "title": "Fine-tuning Pocket-Conditioned 3D Molecule Generation via Reinforcement Learning",
+    "description": "Enhanced the Pocket2Mol model using reinforcement learning to minimize stereochemical errors and optimize molecular properties, including drug-likeness and binding affinity.",
+    "img": "/images/projects/drug_discovery.png"
+  },
   {
     "title": "Drug Target Interaction (DTI) Model",
-    "description": "Developed DTI model architecture and fine-tuning framework for international pharmaceutical corporations at Deargen Inc.",
-    "img": "/images/projects/quidditch.png"
+    "description": "Developed a Drug-Target Interaction (DTI) model architecture and fine-tuning framework for global pharmaceutical corporations at Deargen Inc.",
+    "img": "/images/projects/dti.png"
+  },
+  {
+    "title": "Autonomous Guidewire Navigation for Percutaneous Coronary Intervention",
+    "description": "Developed a deep neural network to automate cardiovascular intervention procedures using only visual cues. Significantly improved performance over expert algorithms by employing behavioral cloning and DDPG reinforcement learning.",
+    "img": "/images/projects/guidewire.png"
+  },
+  {
+    "title": "Development of Autonomous Drones for Ship Navigation Assistance",
+    "description": "Conducted R&D in collaboration with HD Korea Shipbuilding & Offshore Engineering. Developed autonomous drones for ship operation assistance, featuring path planning relative to vessel movement and AI-driven environmental perception.",
+    "img": "/images/projects/drone_landscape.webp"
+  },
+  {
+    "title": "Autonomous Drone Competition",
+    "description": "Awarded the Grand Prize in the autonomous drone competition hosted by the Defense Acquisition Program Administration (DAPA).",
+    "img": "/images/projects/drone.png"
   }
 ]
