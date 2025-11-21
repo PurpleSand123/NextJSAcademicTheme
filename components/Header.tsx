@@ -28,6 +28,7 @@ const Header = ({ mounted, resolvedTheme, setTheme, scrolled }: HeaderProps): JS
           <NavLink title="About" href="/#about" />
           <NavLink title="Publications" href="/#publications" />
           <NavLink title="Projects" href="/projects" />
+          <NavLink title="Blog" href="https://bequiet-log.vercel.app/" external />
 
           <button
             type="button"
