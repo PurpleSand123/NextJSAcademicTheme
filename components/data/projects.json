@@ -1,25 +1,25 @@
 [
-    {
-        "title": "CANVAS - Commonsense-Aware Navigation System",
-        "description": "A vision-language-action model for intuitive robot navigation with commonsense reasoning. Accepted at ICRA 2025 and won Outstanding Paper Award at NeurIPS 2024 Workshop.",
-        "img": "/images/projects/rules.png"
-    },
+  {
+    "title": "CANVAS - Commonsense-Aware Navigation System",
+    "description": "A vision-language-action model for intuitive robot navigation with commonsense reasoning. Accepted at ICRA 2025 and won Outstanding Paper Award at NeurIPS 2024 Workshop.",
+    "img": "/images/projects/rules.png"
+  },
 
-    {
-        "title": "D2E - Desktop to Embodied AI",
-        "description": "Scaling vision-action pretraining using desktop and gaming data for transfer to physical robotics tasks. Submitted to ICLR 2026.",
-        "img": "/images/projects/quidditch.png"
-    },
+  {
+    "title": "D2E - Desktop to Embodied AI",
+    "description": "Scaling vision-action pretraining using desktop and gaming data for transfer to physical robotics tasks. Submitted to ICLR 2026.",
+    "img": "/images/projects/quidditch.png"
+  },
 
-    {
-        "title": "General-Purpose Foundation Model for Robotics",
-        "description": "Research on developing a foundation model for robotics and autonomous driving at Maum AI, with evaluation in Nvidia Isaac simulation environments.",
-        "img": "/images/projects/rules.png"
-    },
+  {
+    "title": "General-Purpose Foundation Model for Robotics",
+    "description": "Research on developing a foundation model for robotics and autonomous driving at Maum AI, with evaluation in Nvidia Isaac simulation environments.",
+    "img": "/images/projects/rules.png"
+  },
 
-    {
-        "title": "Drug Target Interaction (DTI) Model",
-        "description": "Developed DTI model architecture and fine-tuning framework for international pharmaceutical corporations at Deargen Inc.",
-        "img": "/images/projects/quidditch.png"
-    }
+  {
+    "title": "Drug Target Interaction (DTI) Model",
+    "description": "Developed DTI model architecture and fine-tuning framework for international pharmaceutical corporations at Deargen Inc.",
+    "img": "/images/projects/quidditch.png"
+  }
 ]

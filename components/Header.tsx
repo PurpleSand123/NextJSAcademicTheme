@@ -40,10 +40,14 @@ const Header = ({ mounted, resolvedTheme, setTheme, scrolled }: HeaderProps): JS
             }}
           >
             <abbr title="Switch theme">
-              {resolvedTheme === 'light' ? (
-                <Moon size={22} aria-label="Moon" />
-              ) : (
-                <Sun size={22} aria-label="Sun" />
+              {mounted && (
+                <>
+                  {resolvedTheme === 'light' ? (
+                    <Moon size={22} aria-label="Moon" />
+                  ) : (
+                    <Sun size={22} aria-label="Sun" />
+                  )}
+                </>
               )}
             </abbr>
           </button>

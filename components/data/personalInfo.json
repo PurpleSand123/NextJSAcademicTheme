@@ -1,50 +1,48 @@
 {
-    "title": "Yongjun Cho",
-    "name": "Yongjun Cho",
-    "domain":"https://bequiet-log.vercel.app/",
-    "copyright":"Yongjun Cho",
-    "socialMedia": {
-        "Twitter": "https://twitter.com/",
-        "LinkedIn": "https://www.linkedin.com/in/purplesand",
-        "GoogleScholar": "https://scholar.google.com/"
+  "title": "Yongjun Cho",
+  "name": "Yongjun Cho",
+  "domain": "https://bequiet-log.vercel.app/",
+  "copyright": "Yongjun Cho",
+  "socialMedia": {
+    "Twitter": "https://twitter.com/",
+    "LinkedIn": "https://www.linkedin.com/in/purplesand",
+    "GoogleScholar": "https://scholar.google.com/"
+  },
+  "about": {
+    "position": "Senior Research Scientist",
+    "company": {
+      "team": "WoRV (World model for Robotics and Vehicle control)",
+      "name": "Maum AI",
+      "link": "https://maum.ai/"
     },
-    "about": {
-        "position": "Senior Research Scientist",
-        "company": {
-            "team": "WoRV (World model for Robotics and Vehicle control)",
-            "name": "Maum AI",
-            "link": "https://maum.ai/"
-        },
 
-        "industryExperience": "3 years and 7 months of experience",
-        "master": {
-            "name": "School of Electrical Engineering",
-            "link": "https://ee.kaist.ac.kr/",
-            "institution": "Korea Advanced Institute of Science and Technology (KAIST)",
-            "lab": {
-                "name": "Control Lab at KAIST",
-                "link": "https://control.kaist.ac.kr/"
-            },
-            "Degree": "Master's Degree",
-            "advisor": {
-                "name": "Dong Eui Chang",
-                "link": "https://control.kaist.ac.kr/Professor"
-            }
-        },
-        "specialization": "Artificial Intelligence and Reinforcement Learning",
-        "email": "cyjun0304@naver.com",
-        "interest": "Robotics, Autonomous Navigation, Imitation Learning, Reinforcement Learning, Vision-Language-Action Models, Generalization in AI"
+    "industryExperience": "3 years and 7 months of experience",
+    "master": {
+      "name": "School of Electrical Engineering",
+      "link": "https://ee.kaist.ac.kr/",
+      "institution": "Korea Advanced Institute of Science and Technology (KAIST)",
+      "lab": {
+        "name": "Control Lab at KAIST",
+        "link": "https://control.kaist.ac.kr/"
+      },
+      "Degree": "Master's Degree",
+      "advisor": {
+        "name": "Dong Eui Chang",
+        "link": "https://control.kaist.ac.kr/Professor"
+      }
     },
-    "education": [
-        {
-            "name": "KAIST - M.S. in Electrical Engineering (Mar. 2020 - Mar. 2022)",
-            "link": "https://ee.kaist.ac.kr/"
-        },
-        {
-            "name": "KAIST - B.S. in Mechanical Engineering (Mar. 2015 - Mar. 2020)",
-            "link": "https://me.kaist.ac.kr/"
-        }
-    ]
-
-
+    "specialization": "Artificial Intelligence and Reinforcement Learning",
+    "email": "cyjun0304@naver.com",
+    "interest": "Robotics, Autonomous Navigation, Imitation Learning, Reinforcement Learning, Vision-Language-Action Models, Generalization in AI"
+  },
+  "education": [
+    {
+      "name": "KAIST - M.S. in Electrical Engineering (Mar. 2020 - Mar. 2022)",
+      "link": "https://ee.kaist.ac.kr/"
+    },
+    {
+      "name": "KAIST - B.S. in Mechanical Engineering (Mar. 2015 - Mar. 2020)",
+      "link": "https://me.kaist.ac.kr/"
+    }
+  ]
 }

@@ -7,13 +7,8 @@ const News = (): JSX.Element => {
       <h2 className="text-xl font-bold mt-12 mb-4">News</h2>
       <div className="space-y-3">
         {data.map((item: any, index: number) => (
-          <div
-            key={index}
-            className="flex flex-col sm:flex-row sm:items-baseline"
-          >
-            <span className="text-xs font-mono text-gray-500 w-28 flex-shrink-0">
-              {item.date}
-            </span>
+          <div key={index} className="flex flex-col sm:flex-row sm:items-baseline">
+            <span className="text-xs font-mono text-gray-500 w-28 flex-shrink-0">{item.date}</span>
             <div className="sm:ml-4">
               <p className="text-sm text-black">
                 <span className="font-semibold">{item.title}</span>
@@ -38,4 +33,3 @@ const News = (): JSX.Element => {
 };
 
 export default News;
-

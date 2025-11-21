@@ -6,13 +6,9 @@ const Experience = (): JSX.Element => {
       <h2 className="text-xl font-bold mt-12 mb-4">Experience</h2>
       <div className="space-y-6">
         {data.map((item: any, index: number) => (
-          <div
-            key={index}
-            className="border-l-2 border-gray-200 pl-4"
-          >
+          <div key={index} className="border-l-2 border-gray-200 pl-4">
             <h3 className="font-semibold text-gray-900">
-              {item.role}{' '}
-              <span className="text-gray-700">@ {item.company}</span>
+              {item.role} <span className="text-gray-700">@ {item.company}</span>
             </h3>
             <p className="text-xs text-gray-500">
               {item.location} &middot; {item.period}
@@ -32,4 +28,3 @@ const Experience = (): JSX.Element => {
 };
 
 export default Experience;
-
