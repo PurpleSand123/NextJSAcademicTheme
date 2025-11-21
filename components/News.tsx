@@ -8,9 +8,11 @@ const News = (): JSX.Element => {
       <div className="space-y-3">
         {data.map((item: any, index: number) => (
           <div key={index} className="flex flex-col sm:flex-row sm:items-baseline">
-            <span className="text-xs font-mono text-gray-500 w-28 flex-shrink-0">{item.date}</span>
+            <span className="text-xs font-mono text-gray-500 dark:text-gray-400 w-28 flex-shrink-0">
+              {item.date}
+            </span>
             <div className="sm:ml-4">
-              <p className="text-sm text-black">
+              <p className="text-sm text-black dark:text-white">
                 <span className="font-semibold">{item.title}</span>
                 {item.description && (
                   <>
