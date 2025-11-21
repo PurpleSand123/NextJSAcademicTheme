@@ -9,7 +9,7 @@ const Style={
     frameborder: 0
 }
 
-const Misc: NextPage<unknown> = () => {
+const CV: NextPage<unknown> = () => {
     const [loading, setLoading] = useState(true);
 
     return (
@@ -20,4 +20,4 @@ const Misc: NextPage<unknown> = () => {
     );
 };
 
-export default Misc;
+export default CV;

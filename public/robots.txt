@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://nextjs-academic-theme.vercel.app/
+Host: https://yongjun-cho.vercel.app/
 
 # Sitemaps
-Sitemap: https://nextjs-academic-theme.vercel.app/sitemap.xml
+Sitemap: https://yongjun-cho.vercel.app/sitemap.xml

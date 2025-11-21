@@ -1,39 +1,48 @@
 {
-    "title": "Harry Potter",
-    "name": "Harry James Potter",
-    "domain":"https://nextjs-academic-theme.vercel.app/",
-    "copyright":"harrypotter.me",
+    "title": "Yongjun Cho",
+    "name": "Yongjun Cho",
+    "domain":"https://bequiet-log.vercel.app/",
+    "copyright":"Yongjun Cho",
     "socialMedia": {
         "Twitter": "https://twitter.com/",
-        "LinkedIn": "https://www.linkedin.com/",
+        "LinkedIn": "https://www.linkedin.com/in/purplesand",
         "GoogleScholar": "https://scholar.google.com/"
     },
     "about": {
-        "year": "7th-year",
-        "department": {
-            "name": "Gryffindor",
-            "link": "https://harrypotter.fandom.com/wiki/Gryffindor"
+        "position": "Senior Research Scientist",
+        "company": {
+            "team": "WoRV (World model for Robotics and Vehicle control)",
+            "name": "Maum AI",
+            "link": "https://maum.ai/"
         },
-        "college": {
-            "name": "Hogwarts School of Witchcraft and Wizardry",
-            "link": "https://harrypotter.fandom.com/wiki/Hogwarts_School_of_Witchcraft_and_Wizardry"
+
+        "industryExperience": "3 years and 7 months of experience",
+        "master": {
+            "name": "School of Electrical Engineering",
+            "link": "https://ee.kaist.ac.kr/",
+            "institution": "Korea Advanced Institute of Science and Technology (KAIST)",
+            "lab": {
+                "name": "Control Lab at KAIST",
+                "link": "https://control.kaist.ac.kr/"
+            },
+            "Degree": "Master's Degree",
+            "advisor": {
+                "name": "Dong Eui Chang",
+                "link": "https://control.kaist.ac.kr/Professor"
+            }
         },
-        "advisor": {
-            "name": "Albus Dumbledor",
-            "link": "https://harrypotter.fandom.com/wiki/Albus_Dumbledore"
-        },
-        "email": "harrypotter AT MyUniversity",
-        "interest": "Defense against Dark Arts Spell; Dark Creatures"
+        "specialization": "Artificial Intelligence and Reinforcement Learning",
+        "email": "cyjun0304@naver.com",
+        "interest": "Robotics, Autonomous Navigation, Imitation Learning, Reinforcement Learning, Vision-Language-Action Models, Generalization in AI"
     },
-    "love": "https://harrypotter.fandom.com/wiki/James_and_Lily_Potter",
     "education": [
         {
-            "name": "The Auror Department(2007-2008, Visiting Scholar)",
-            "link": "https://harrypotter.fandom.com/wiki/British_Auror_Office"
+            "name": "KAIST - M.S. in Electrical Engineering (Mar. 2020 - Mar. 2022)",
+            "link": "https://ee.kaist.ac.kr/"
         },
         {
-            "name": "Hogwarts Primary University(1911-1988, Bachelor's in Magic)",
-            "link": "https://harrypotter.fandom.com/wiki/Hogwarts_School_of_Witchcraft_and_Wizardry"
+            "name": "KAIST - B.S. in Mechanical Engineering (Mar. 2015 - Mar. 2020)",
+            "link": "https://me.kaist.ac.kr/"
         }
     ]
 

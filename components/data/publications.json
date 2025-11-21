@@ -1,105 +1,100 @@
 [
 	{
-		"id": 5,
-		"author": "P.Harry, A.Dumbledor",
-		"title": "Towards Generalized Defensing Against the Dark Arts Spells",
-		"conference": "In Proc of ACM Conference of Magic, Hogwarts Owlery, England.",
+		"id": 6,
+		"author": "Suhwan Choi†, Yongjun Cho†, Youngjae Yu* et al.",
+		"title": "CANVAS: Commonsense-Aware Navigation System for Intuitive Human-Robot Interaction",
+		"img": "/images/projects/rules.png",
+		"conference": "International Conference on Robotics and Automation (ICRA) 2025",
 		"links": [
 			{
-				"name": "pdf",
-				"url": ""
+				"name": "website",
+				"url": "https://worv-ai.github.io/canvas/"
 			},
 			{
-				"name": "slides",
-				"url": ""
+				"name": "award",
+				"url": "https://sites.google.com/view/open-world-agents/awards"
 			},
 			{
-				"name": "video",
-				"url": ""
+				"name": "IEEE",
+				"url": "https://ieeexplore.ieee.org/document/11127664"
+			}
+		]
+	},
+
+	{
+		"id": 5,
+		"author": "Suhwan Choi†, Jaeyoon Jung†, Haebin Seong†, Minchan Kim, Minyeong Kim, Yongjun Cho, Youngjae Yu*, Yunsung Lee* et al.",
+		"title": "D2E: Scaling Vision-Action Pretraining on Desktop Data for Transfer to Embodied AI",
+		"img": "/images/projects/quidditch.png",
+		"conference": "Submitted to ICLR 2026",
+		"links": [
+			{
+				"name": "website",
+				"url": "https://worv-ai.github.io/d2e/"
+			},
+			{
+				"name": "arxiv",
+				"url": "https://arxiv.org/abs/2510.05684"
+			},
+			{
+				"name": "code",
+				"url": "https://github.com/worv-ai/d2e"
 			}
 		]
 	},
 
 	{
 		"id": 4,
-		"author": "P.Harry, A.Dumbledor",
-		"title": "Rethinking Defensing Against the Dark Arts Spells",
-		"conference": "In Proc of ACM Conference of Magic, Hogwarts Owlery, England.",
+		"author": "Daeseok Lee†, Yongjun Cho†",
+		"title": "Fine-tuning Pocket-conditioned 3D Molecule Generation via Reinforcement Learning",
+		"img": "/images/projects/quidditch.png",
+		"conference": "ICLR 2024 Workshop on Generative and Experimental Perspectives for Biomolecular Design (GEM)",
 		"links": [
 			{
-				"name": "pdf",
-				"url": ""
-			},
-			{
-				"name": "slides",
-				"url": ""
-			},
-			{
-				"name": "video",
-				"url": ""
+				"name": "openreview",
+				"url": "https://openreview.net/forum?id=hlzRzr9ksu"
 			}
 		]
 	},
 
 	{
 		"id": 3,
-		"author": "P.Harry, A.Dumbledor",
-		"title": "Pushing the Limits of Defensing Against the Dark Arts Spells",
-		"conference": "In Proc of ACM Conference of Magic, Hogwarts Owlery, England.",
+		"author": "Yongjun Cho†, Jae-Hyeon Park†, Dong Eui Chang* et al.",
+		"title": "Sim-to-Real Transfer of Image-Based Autonomous Guidewire Navigation Trained by Deep Deterministic Policy Gradient with Behavior Cloning for Fast Learning",
+		"img": "/images/projects/rules.png",
+		"conference": "2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
 		"links": [
 			{
-				"name": "pdf",
-				"url": ""
-			},
-			{
-				"name": "slides",
-				"url": ""
-			},
-			{
-				"name": "video",
-				"url": ""
+				"name": "IEEE",
+				"url": "https://ieeexplore.ieee.org/document/9982168/"
 			}
 		]
 	},
 
 	{
 		"id": 2,
-		"author": "P.Harry, A.Dumbledor",
-		"title": "Defensing Against the Dark Arts Spells based on Reductor Curse",
-		"conference": "In Proc of ACM Conference of Magic, Hogwarts Owlery, England.",
+		"author": "Yongjun Cho, Dong Eui Chang* et al.",
+		"title": "Image Processing Based Autonomous Guidewire Navigation in Percutaneous Coronary Intervention",
+		"img": "/images/projects/rules.png",
+		"conference": "2021 IEEE International Conference on Consumer Electronics-Asia (ICCE-Asia)",
 		"links": [
 			{
-				"name": "pdf",
-				"url": ""
-			},
-			{
-				"name": "slides",
-				"url": ""
-			},
-			{
-				"name": "video",
-				"url": ""
+				"name": "IEEE",
+				"url": "https://ieeexplore.ieee.org/document/9641975"
 			}
 		]
 	},
 
 	{
 		"id": 1,
-		"author": "P.Harry, A.Dumbledor",
-		"title": "A Survey of Defensing Against the Dark Arts Spells",
-		"conference": "In Proc of ACM Conference of Magic, Hogwarts Owlery, England.",
+		"author": "Jae-Hyeon Park, Yongjun Cho, Dong Eui Chang* et al.",
+		"title": "Real-time Quadrotor Actuator Fault Detection and Isolation Using Multivariate Statistical Analysis Techniques with Sensor Measurements",
+		"img": "/images/projects/quidditch.png",
+		"conference": "2020 20th International Conference on Control, Automation and Systems (ICCAS)",
 		"links": [
 			{
-				"name": "pdf",
-				"url": ""
-			},
-			{
-				"name": "slides",
-				"url": ""
-			},
-			{
-				"name": "video",
-				"url": ""
+				"name": "IEEE",
+				"url": "https://ieeexplore.ieee.org/document/9268391"
 			}
 		]
 	}

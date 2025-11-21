@@ -24,7 +24,7 @@ const Header = ({mounted, resolvedTheme, setTheme, scrolled}: HeaderProps): JSX.
                     <NavLink title="About" href="/#about"/>
                     <NavLink title="Publications" href="/#publications"/>
                     <NavLink title="Projects" href="/projects"/>
-                    <NavLink title="Misc" href="/misc"/>
+                    <NavLink title="CV" href="/cv"/>
 
                     <button
                         type="button"
