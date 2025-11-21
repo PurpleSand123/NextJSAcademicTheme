@@ -1,6 +1,7 @@
 import { AppProps } from 'next/app';
 import Head from 'next/head';
 import { ThemeProvider, useTheme } from 'next-themes';
+import { Analytics } from '@vercel/analytics/next';
 
 import Layout from '../components/Layout';
 import personalInfo from '../components/data/personalInfo.json';
@@ -14,6 +15,7 @@ const App = ({ Component, pageProps }: Readonly<AppProps>): JSX.Element => {
   return (
     <ThemeProvider attribute="class">
       <GoogleTag />
+      <Analytics />
       <Head>
         <title>{personalInfo.title}</title>
         <link rel="canonical" href={personalInfo.domain} />
