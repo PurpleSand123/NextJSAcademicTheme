@@ -6,7 +6,10 @@
     "correspondingAuthors": ["Youngjae Yu"],
     "title": "CANVAS: Commonsense-Aware Navigation System for Intuitive Human-Robot Interaction",
     "img": "/images/projects/canvas.png",
-    "conference": "International Conference on Robotics and Automation (ICRA) 2025",
+    "conference": [
+        "International Conference on Robotics and Automation (ICRA) 2025",
+        "NeurIPS 2024 Workshop Open-World Agents (Outstanding Paper Award)"
+      ],
     "links": [
       {
         "name": "website",

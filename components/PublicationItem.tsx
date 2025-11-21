@@ -117,7 +117,15 @@ const PublicationItem = ({ publication, index }: Props): JSX.Element => {
             <i>{publication.title}</i>
           </b>
         </p>
-        <p className="text-sm text-black dark:text-white">{publication.conference}</p>
+        {Array.isArray(publication.conference) ? (
+          publication.conference.map((conf: string, idx: number) => (
+            <p key={idx} className="text-sm text-black dark:text-white">
+              {conf}
+            </p>
+          ))
+        ) : (
+          <p className="text-sm text-black dark:text-white">{publication.conference}</p>
+        )}
         <p className="text-black dark:text-white flex justify-end text-sm font-semibold mt-2 flex-wrap gap-x-2">
           {publication.links.map((linkItem: any, idx: any) => (
             <ExtLink href={linkItem.url} key={idx}>
