@@ -5,20 +5,20 @@
     "location": "Seongnam, S.Korea",
     "period": "Nov. 2024 - Present",
     "bullets": [
-      "Leveraged 12 H100 nodes and 400 hours of human expert data for training, and led its application to an orchard pesticide spraying robot for commercialization.",
-      "Conducted research to improve Sim2Real performance and developed the data pipeline and inference infrastructure necessary for actual commercialization.",
-      "Developed a pipeline for collecting human intervention data, achieving 97% evaluation performance."
+      "Established a commercial pipeline for VLA navigation models (1B--7B), optimizing large-scale training and inference efficiency.",
+      "Enhanced Sim-to-Real transfer and policy performance via domain randomization and efficient human intervention pipelines.",
+      "Led open-source initiatives by releasing benchmarks, datasets, and simulation tools to democratize robot learning."
     ]
   },
   {
-    "role": "Machine Learning Researcher",
+    "role": "Research Scientist",
     "company": "Maum AI",
     "location": "Seongnam, S.Korea",
     "period": "May 2024 - Oct. 2024",
     "bullets": [
-      "Initiated research and laid the fundamental conceptual framework for a general-purpose foundation model in robotics and autonomous driving.",
-      "Designed and implemented evaluation tasks within Nvidia Isaac simulation environments, which were subsequently validated through real-world application.",
-      "Developed and optimized the entire pipeline for large-scale data collection, efficient model training, and comprehensive evaluation."
+      "Led the ideation and fundamental research for commonsense-aware navigation systems CANVAS.",
+      "Designed comprehensive evaluation protocols spanning Nvidia Isaac Sim and real-world environments.",
+      "Developed the foundational pipeline for large-scale data collection, and model training."
     ]
   },
   {
@@ -29,7 +29,7 @@
     "bullets": [
       "Developed the overall Drug Target Interaction (DTI) model architecture and conducted data crawling and processing.",
       "Created a fine-tuning framework and provided services to an international big pharma corporation.",
-      "Developed a reinforcement learning model to enhance pocket-conditioned 3D molecule generation."
+      "Developed a reinforcement learning model to enhance pocket-conditioned 3D molecule generation model."
     ]
   }
 ]

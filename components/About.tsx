@@ -34,15 +34,16 @@ const About = (): JSX.Element => {
             specializing in {personalInfo.about.specialization}.
           </p>
           <p className="mb-4 mt-2">
-            My research focuses on achieving <strong>generalization performance</strong> in robotics
-            and AI by leveraging <strong>imitation learning</strong>,{' '}
-            <strong>reinforcement learning</strong>, and <strong>vision-language models</strong>. I
-            believe that <strong>large-scale physical interaction data</strong> is crucial to
-            solving this challenge, ultimately aiming to{' '}
-            <strong>make AI a companion to humans</strong> through an{' '}
-            <strong>'open-source Physical AI ecosystem'</strong> that learns physical laws and
-            gathers extensive object interaction data to overcome both{' '}
-            <strong>generalization</strong> and <strong>hardware limitations</strong>.
+            My research aims to achieve <strong>robust generalization</strong> in robotics by
+            integrating <strong>Vision-Language-Action (VLA) models</strong> with{' '}
+            <strong>large-scale physical interaction data</strong>. Currently, I am bridging the gap
+            between research and real-world deployment by developing{' '}
+            <strong>commonsense-aware navigation systems</strong>, while actively expanding these
+            generalizable methodologies to robotic manipulation. My work addresses fundamental
+            challenges in robot learning, including <strong>Sim-to-Real transfer</strong> and{' '}
+            <strong>data efficiency</strong>. Furthermore, I am dedicated to democratizing robot
+            learning by releasing <strong>open-source benchmarks and datasets</strong>, fostering an
+            inclusive <strong>ecosystem</strong> adaptable to diverse robotic hardware.
           </p>
           <p className="text-sm text-gray-600 mb-2">
             Research Interest: {personalInfo.about.interest}

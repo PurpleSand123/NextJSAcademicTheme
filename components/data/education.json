@@ -5,17 +5,20 @@
     "location": "Daejeon, S.Korea",
     "period": "Mar. 2020 - Mar. 2022",
     "bullets": [
-      "Advisor: Dong Eui Chang.",
-      "Conducted research on reinforcement learning and autonomous driving for drones in the Control Lab."
+      "Advisor: Dong Eui Chang",
+      "Developed autonomous guidewire navigation systems using Reinforcement Learning and Sim-to-Real transfer.",
+      "Led multiple autonomous drone projects, including vision-only navigation and custom radio control systems. Conducted R&D with HD Korea Shipbuilding to develop ship assistance drones featuring relative path planning and AI-driven perception.",
+      "Investigated real-time anomaly detection for quadrotor actuators using multivariate statistical analysis.",
+      "Awarded the Grand Prize in the Autonomous Drone Competition hosted by the Defense Acquisition Program Administration (DAPA)."
     ]
   },
   {
-    "degree": "B.S. in Mechanical Engineering",
+    "degree": "B.S. in Department of Mechanical Engineering",
     "institution": "KAIST (Korea Advanced Institute of Science and Technology)",
     "location": "Daejeon, S.Korea",
     "period": "Mar. 2015 - Mar. 2020",
     "bullets": [
-      "Developed an autonomous driving robot for library inventory management as a graduation project."
+      "Development of an Autonomous Driving Robot for Library Inventory Management as a Graduation Project"
     ]
   }
 ]
