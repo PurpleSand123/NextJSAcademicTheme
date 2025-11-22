@@ -9,6 +9,7 @@
     "GoogleScholar": "https://scholar.google.com/citations?user=VxekekYAAAAJ&hl=ko"
   },
   "about": {
+    "email": "cyjun0304@kaist.ac.kr",
     "position": "Senior Research Scientist",
     "company": {
       "team": "WoRV (World model for Robotics and Vehicle control)",
@@ -32,7 +33,6 @@
       }
     },
     "specialization": "Artificial Intelligence and Reinforcement Learning",
-    "email": "cyjun0304@naver.com",
     "interest": "Robotics, Autonomous Navigation, Imitation Learning, Reinforcement Learning, Vision-Language-Action Models, Generalization in AI"
   },
   "education": [
