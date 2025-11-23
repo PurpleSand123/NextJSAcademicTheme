@@ -20,7 +20,7 @@
     "img": "/images/projects/canvas.png"
   },
   {
-    "title": "EditCrafter: Tuning‑free High‑Resolution Image Editing via Pretrained Diffusion Model",
+    "title": "EditCrafter: Tuning-free High-Resolution Image Editing via Pretrained Diffusion Model",
     "description": "Proposed EditCrafter, a tuning-free high-resolution image editing method leveraging pre-trained text-to-image diffusion models. Addressed challenges in applying diffusion models to arbitrary aspect ratios and resolutions exceeding training data limits via a streamlined editing pipeline.",
     "img": "/images/projects/editcrafter.png"
   },
