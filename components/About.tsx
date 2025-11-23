@@ -43,8 +43,8 @@ const About = (): JSX.Element => {
             challenges in robot learning, including <strong>Sim-to-Real transfer</strong> and{' '}
             <strong>data efficiency</strong>. Furthermore, I am dedicated to accelerating robot
             learning by releasing <strong>open-source benchmarks and datasets</strong>, and
-            fostering a<strong>research ecosystem</strong> that is accessible across diverse robotic
-            hardware.
+            fostering a <strong>research ecosystem</strong> that is accessible across diverse
+            robotic hardware.
           </p>
           <p className="text-sm text-gray-600 mb-2">
             Research Interest: {personalInfo.about.interest}
