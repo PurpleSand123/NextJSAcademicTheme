@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import ExtLink from './ExtLink';
+import personalInfo from './data/personalInfo.json';
 
 interface Props {
   publication: any;
@@ -38,14 +39,19 @@ const PublicationItem = ({ publication, index }: Props): JSX.Element => {
     setShowAllAuthors(previous => !previous);
   };
 
-  // Function to render author name with special formatting for "Yongjun Cho"
+  // Check if the user is first author or co-first author
+  const myName = personalInfo.name;
+  const isMyCoFirstAuthor = coAuthors.length > 0 && coAuthors.includes(myName);
+  const isMyFirstAuthor = coAuthors.length === 0 && authors.length > 0 && authors[0] === myName;
+
+  // Function to render author name with special formatting for the user
   const renderAuthorName = (authorObj: { name: string; symbol: string }, isLast: boolean) => {
     const { name, symbol } = authorObj;
-    const isYongjunCho = name === 'Yongjun Cho';
+    const isMyName = name === myName;
 
     return (
       <span key={name}>
-        {isYongjunCho ? (
+        {isMyName ? (
           <b>
             <u>{name}</u>
           </b>
@@ -68,6 +74,11 @@ const PublicationItem = ({ publication, index }: Props): JSX.Element => {
         />
       )}
       <div className="flex-1">
+        {(isMyFirstAuthor || isMyCoFirstAuthor) && (
+          <p className="text-xs text-red-600 dark:text-red-400 font-semibold mb-1">
+            {isMyCoFirstAuthor ? 'Co-First Author' : 'First Author'}
+          </p>
+        )}
         <p className="text-sm text-black dark:text-white">
           <span className="mr-1">[{index}]</span>
           {visibleAuthors.map((authorObj, idx) =>
