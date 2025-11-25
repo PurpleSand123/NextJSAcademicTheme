@@ -29,9 +29,9 @@ const About = (): JSX.Element => {
             advised by{' '}
             <ExtLink href={personalInfo.about.master.advisor.link}>
               {' '}
-              {personalInfo.about.master.advisor.name},{' '}
+              {personalInfo.about.master.advisor.name}
             </ExtLink>
-            specializing in {personalInfo.about.specialization}.
+            , specializing in {personalInfo.about.specialization}.
           </p>
           <p className="mb-4 mt-2">
             My research aims to achieve <strong>robust generalization</strong> in robotics by
