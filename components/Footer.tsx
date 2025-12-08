@@ -2,13 +2,15 @@ import personalInfo from './data/personalInfo.json';
 import SupportingBox from './SupportingBox';
 
 const Footer = (): JSX.Element => {
-  const iconStyle = 'hover:bg-gray-300 dark:hover:bg-gray-600 p-1 rounded-md';
+  const currentYear = new Date().getFullYear();
 
   return (
-    <footer>
-      <p className="text-center text-sm opacity-40 dark:opacity-50 pb-4 pt-4">
-        Built with <i>Next.js, TailwindCSS</i>.{' '}
-      </p>
+    <footer className="mt-16 border-t border-gray-200 dark:border-gray-800">
+      <div className="max-w-4xl mx-auto px-5 py-8">
+        <p className="text-center text-sm text-gray-600 dark:text-gray-400">
+          © {currentYear} {personalInfo.name}. All rights reserved.
+        </p>
+      </div>
     </footer>
   );
 };
