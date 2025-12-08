@@ -2,8 +2,8 @@ import { NextPage } from 'next';
 import Link from 'next/link';
 
 const FourOFour: NextPage<unknown> = () => (
-  <section className="flex flex-col items-center justify-center min-h-[60vh] text-center px-4">
-    <div className="space-y-8 max-w-2xl">
+  <section className="flex flex-col items-center justify-center min-h-[60vh] text-center px-4 w-full">
+    <div className="space-y-8 max-w-2xl w-full">
       {/* Large 404 Number */}
       <div className="relative">
         <h1 className="text-9xl font-bold text-gray-200 dark:text-gray-800 select-none">404</h1>
@@ -30,12 +30,12 @@ const FourOFour: NextPage<unknown> = () => (
             ← Back to Home
           </button>
         </Link>
-        <Link href="/projects">
+        <Link href="https://bequiet-log.vercel.app/" target="_blank" rel="noopener noreferrer">
           <button
             type="button"
             className="px-6 py-3 border-2 border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 font-semibold rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors duration-200"
           >
-            View Projects
+            View Blog
           </button>
         </Link>
       </div>
