@@ -1,9 +1,0 @@
-# *
-User-agent: *
-Allow: /
-
-# Host
-Host: https://yongjuncho.com/
-
-# Sitemaps
-Sitemap: https://yongjuncho.com/sitemap.xml
