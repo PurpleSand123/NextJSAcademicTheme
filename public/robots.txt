@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://yongjun-cho.vercel.app/
+Host: https://yongjuncho.com/
 
 # Sitemaps
-Sitemap: https://yongjun-cho.vercel.app/sitemap.xml
+Sitemap: https://yongjuncho.com/sitemap.xml
