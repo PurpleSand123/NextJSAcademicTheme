@@ -7,16 +7,11 @@ export default class MyDocument extends Document {
   }
 
   render(): JSX.Element {
-    const googleSiteVerification = process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION;
-
     return (
       <Html lang="en">
         <Head>
           <meta charSet="utf-8" />
           <meta name="apple-mobile-web-app-capable" content="yes" />
-          {googleSiteVerification && (
-            <meta name="google-site-verification" content={googleSiteVerification} />
-          )}
           <link rel="apple-touch-icon" href="/favicon/apple-touch-icon.png" />
           <link rel="manifest" href="/site.webmanifest" />
         </Head>

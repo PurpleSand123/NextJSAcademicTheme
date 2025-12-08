@@ -5,13 +5,10 @@ declare namespace NodeJS {
   interface ProcessEnv {
     // Google Analytics tracking ID
     NEXT_PUBLIC_GOOGLE_ANALYTICS?: string;
-    
-    // Google Site Verification code
-    NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION?: string;
-    
+
     // Site URL for sitemap generation
     SITE_URL?: string;
-    
+
     // GitHub token for API access
     GITHUB_TOKEN?: string;
   }
