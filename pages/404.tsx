@@ -1,5 +1,6 @@
 import { NextPage } from 'next';
 import Link from 'next/link';
+import personalInfo from '../components/data/personalInfo.json';
 
 const FourOFour: NextPage<unknown> = () => (
   <section className="flex flex-col items-center justify-center min-h-[60vh] text-center px-4 w-full">
@@ -30,7 +31,7 @@ const FourOFour: NextPage<unknown> = () => (
             ← Back to Home
           </button>
         </Link>
-        <Link href="https://bequiet-log.vercel.app/" target="_blank" rel="noopener noreferrer">
+        <Link href={personalInfo.blog} target="_blank" rel="noopener noreferrer">
           <button
             type="button"
             className="px-6 py-3 border-2 border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 font-semibold rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors duration-200"

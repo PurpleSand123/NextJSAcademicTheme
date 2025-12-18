@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import NavLink from './NavLink';
 import { Sun, Moon } from 'react-feather';
+import personalInfo from './data/personalInfo.json';
 
 interface HeaderProps {
   mounted: any;
@@ -28,7 +29,7 @@ const Header = ({ mounted, resolvedTheme, setTheme, scrolled }: HeaderProps): JS
           <NavLink title="About" href="/#about" />
           <NavLink title="Publications" href="/#publications" />
           <NavLink title="Projects" href="/projects" />
-          <NavLink title="Blog" href="https://bequiet-log.vercel.app/" external />
+          <NavLink title="Blog" href={personalInfo.blog} external />
 
           <button
             type="button"
