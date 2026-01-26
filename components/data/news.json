@@ -1,12 +1,17 @@
 [
   {
+    "date": "2026-01-26",
+    "title": "🎉 Our paper D2E got accepted to ICLR 2026! Bridging desktop data to embodied AI - scaling vision-action pretraining with 1.3K+ hours of data achieving 96.6% success on LIBERO! 🤖",
+    "link": "https://worv-ai.github.io/d2e/"
+  },
+  {
     "date": "2025-01-28",
-    "title": "Our paper CANVAS got accepted to ICRA 2025!",
+    "title": "🎉 Our paper CANVAS got accepted to ICRA 2025!",
     "link": "https://worv-ai.github.io/canvas/"
   },
   {
     "date": "2024-12-15",
-    "title": "Outstanding Paper Award at NeurIPS 2024 Open-World Agents Workshop (3 selected out of 100 accepted papers).",
+    "title": "🏆 Outstanding Paper Award at NeurIPS 2024 Open-World Agents Workshop (3 selected out of 100 accepted papers).",
     "link": "https://sites.google.com/view/open-world-agents/awards"
   }
 ]
