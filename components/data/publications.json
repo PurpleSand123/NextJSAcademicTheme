@@ -1,5 +1,33 @@
 [
   {
+    "id": 7,
+    "coAuthors": ["Haebin Seong", "Sungmin Kim", "Yongjun Cho"],
+    "authors": ["Myunchul Joe", "Geunwoo Kim", "Yubeen Park", "Sunhoo Kim", "Yoonshik Kim", "Suhwan Choi", "Jaeyoon Jung", "Jiyong Youn", "Jinmyung Kwak", "Sunghee Ahn", "Jaemin Lee", "Younggil Do", "Seungyeop Yi", "Woojin Cheong", "Minhyeok Oh", "Minchan Kim", "Yoonseok Kang", "Seongjae Kang", "Samwoo Seong"],
+    "correspondingAuthors": ["Youngjae Yu", "Yunsung Lee"],
+    "title": "CostNav: A Navigation Benchmark for Cost-Aware Evaluation of Embodied Agents",
+    "img": "/images/projects/costnav.png",
+    "conference": "arXiv preprint 2025",
+    "links": [
+      {
+        "name": "website",
+        "url": "https://worv-ai.github.io/costnav/"
+      },
+      {
+        "name": "arxiv",
+        "url": "https://arxiv.org/abs/2511.20216"
+      },
+      {
+        "name": "blog",
+        "url": "https://worv.ghost.io/costnav-2/"
+      },
+      {
+        "name": "code",
+        "url": "https://github.com/worv-ai/CostNav"
+      }
+    ]
+  },
+
+  {
     "id": 6,
     "coAuthors": ["Suhwan Choi", "Yongjun Cho", "Minchan Kim", "Jaeyoon Jung"],
     "authors": ["Myunchul Joe", "Yubeen Park", "Minseo Kim", "Sungwoong Kim", "Sungjae Lee", "Hwiseong Park", "Jiwan Chung"],
