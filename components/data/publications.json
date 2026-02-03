@@ -25,6 +25,30 @@
 
   {
     "id": 6,
+    "coAuthors": ["Suhwan Choi", "Jaeyoon Jung", "Haebin Seong"],
+    "authors": ["Minchan Kim", "Minyeong Kim", "Yongjun Cho", "Yoonshik Kim", "Yubeen Park"],
+    "correspondingAuthors": ["Youngjae Yu", "Yunsung Lee"],
+    "title": "D2E: Scaling Vision-Action Pretraining on Desktop Data for Transfer to Embodied AI",
+    "img": "/images/projects/d2e.png",
+    "conference": "The Fourteenth International Conference on Learning Representations (ICLR) 2026",
+    "links": [
+      {
+        "name": "website",
+        "url": "https://worv-ai.github.io/d2e/"
+      },
+      {
+        "name": "arxiv",
+        "url": "https://arxiv.org/abs/2510.05684"
+      },
+      {
+        "name": "code",
+        "url": "https://github.com/worv-ai/d2e"
+      }
+    ]
+  },
+
+  {
+    "id": 5,
     "coAuthors": ["Suhwan Choi", "Yongjun Cho", "Minchan Kim", "Jaeyoon Jung"],
     "authors": ["Myunchul Joe", "Yubeen Park", "Minseo Kim", "Sungwoong Kim", "Sungjae Lee", "Hwiseong Park", "Jiwan Chung"],
     "correspondingAuthors": ["Youngjae Yu"],
@@ -46,30 +70,6 @@
       {
         "name": "IEEE",
         "url": "https://ieeexplore.ieee.org/document/11127664"
-      }
-    ]
-  },
-
-  {
-    "id": 5,
-    "coAuthors": ["Suhwan Choi", "Jaeyoon Jung", "Haebin Seong"],
-    "authors": ["Minchan Kim", "Minyeong Kim", "Yongjun Cho", "Yoonshik Kim", "Yubeen Park"],
-    "correspondingAuthors": ["Youngjae Yu", "Yunsung Lee"],
-    "title": "D2E: Scaling Vision-Action Pretraining on Desktop Data for Transfer to Embodied AI",
-    "img": "/images/projects/d2e.png",
-    "conference": "The Fourteenth International Conference on Learning Representations (ICLR) 2026",
-    "links": [
-      {
-        "name": "website",
-        "url": "https://worv-ai.github.io/d2e/"
-      },
-      {
-        "name": "arxiv",
-        "url": "https://arxiv.org/abs/2510.05684"
-      },
-      {
-        "name": "code",
-        "url": "https://github.com/worv-ai/d2e"
       }
     ]
   },
