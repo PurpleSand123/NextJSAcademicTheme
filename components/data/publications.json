@@ -9,10 +9,6 @@
     "conference": "arXiv preprint 2026",
     "links": [
       {
-        "name": "website",
-        "url": "https://worv-ai.github.io/costnav/"
-      },
-      {
         "name": "arxiv",
         "url": "https://arxiv.org/abs/2511.20216"
       },
