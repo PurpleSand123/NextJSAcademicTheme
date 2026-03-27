@@ -24,6 +24,22 @@
   },
 
   {
+    "id": 8,
+    "coAuthors": [],
+    "authors": ["Kunho Kim", "Sumin Seo", "Yongjun Cho", "Hyungjin Chung"],
+    "correspondingAuthors": [],
+    "title": "EditCrafter: Tuning-free High-Resolution Image Editing via Pretrained Diffusion Model",
+    "img": "/images/projects/editcrafter.png",
+    "conference": "CVPR 2026 Workshop on High-Resolution Image Generation (HiGen) Proceeding Track",
+    "links": [
+      {
+        "name": "openreview",
+        "url": "https://openreview.net/forum?id=esQLQYSVVN"
+      }
+    ]
+  },
+
+  {
     "id": 6,
     "coAuthors": ["Suhwan Choi", "Jaeyoon Jung", "Haebin Seong"],
     "authors": ["Minchan Kim", "Minyeong Kim", "Yongjun Cho", "Yoonshik Kim", "Yubeen Park"],
