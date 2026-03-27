@@ -30,7 +30,7 @@
     "correspondingAuthors": [],
     "title": "EditCrafter: Tuning-free High-Resolution Image Editing via Pretrained Diffusion Model",
     "img": "/images/projects/editcrafter.png",
-    "conference": "CVPR 2026 Workshop on High-Resolution Image Generation (HiGen) Proceeding Track",
+    "conference": "CVPR 2026 2nd Workshop on Human-Interactive Generation and Editing (HiGen) Proceeding Track",
     "links": [
       {
         "name": "openreview",
