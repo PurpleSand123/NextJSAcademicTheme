@@ -34,17 +34,13 @@ const About = (): JSX.Element => {
             , specializing in {personalInfo.about.specialization}.
           </p>
           <p className="mb-4 mt-2">
-            My research aims to achieve <strong>robust generalization</strong> in robotics by
-            integrating <strong>Vision-Language-Action (VLA) models</strong> with{' '}
-            <strong>large-scale physical interaction data</strong>. Currently, I am bridging the gap
-            between research and real-world deployment by developing{' '}
-            <strong>commonsense-aware navigation systems</strong>, while actively expanding these
-            generalizable methodologies to robotic manipulation. My work addresses fundamental
-            challenges in robot learning, including <strong>Sim-to-Real transfer</strong> and{' '}
-            <strong>data efficiency</strong>. Furthermore, I am dedicated to accelerating robot
-            learning by releasing <strong>open-source benchmarks and datasets</strong>, and
-            fostering a <strong>research ecosystem</strong> that is accessible across diverse
-            robotic hardware.
+            Intelligence isn't only about language — it's also about navigating the physical world. I
+            believe the path to truly generalizable AI is building embodied intelligence that learns
+            the way nature does — efficiently, physically, and deployably. I build and ship
+            production robotics systems end-to-end: from <strong>large-scale data pipelines</strong>{' '}
+            and <strong>VLA model training</strong> to{' '}
+            <strong>on-device inference optimization</strong> and{' '}
+            <strong>real-world deployment</strong> across multiple field sites.
           </p>
           <p className="text-sm text-gray-600 mb-2">
             Research Interest: {personalInfo.about.interest}

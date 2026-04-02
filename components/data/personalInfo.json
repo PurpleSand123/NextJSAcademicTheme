@@ -18,7 +18,7 @@
       "link": "https://worv.ghost.io/"
     },
 
-    "industryExperience": "3 years and 7 months of experience",
+    "industryExperience": "4 years of experience",
     "master": {
       "name": "School of Electrical Engineering",
       "link": "https://ee.kaist.ac.kr/",
@@ -34,7 +34,7 @@
       }
     },
     "specialization": "Artificial Intelligence and Reinforcement Learning",
-    "interest": "Robotics, Autonomous Navigation, Imitation Learning, Reinforcement Learning, Vision-Language-Action Models, Generalization in AI"
+    "interest": "Robotics, Autonomous Navigation, Vision-Language-Action Models, Sim-to-Real Transfer, Data Pipelines, On-Device Inference, Diffusion Models, Reinforcement Learning"
   },
   "education": [
     {
