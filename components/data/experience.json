@@ -2,35 +2,38 @@
   {
     "role": "Senior Research Scientist",
     "company": "Maum AI",
-    "location": "Seongnam, S.Korea",
+    "location": "Seongnam, South Korea",
     "period": "Nov. 2024 - Present",
     "bullets": [
-      "Built an end-to-end commercial pipeline for VLA navigation models (1B–7B), covering large-scale data collection (500+ hours), training, and on-device inference optimization.",
-      "Designed and operated a multi-container deployment architecture (Isaac Sim + ROS2 Jazzy + GPU inference) for Sim-to-Real transfer across 6+ real-world field sites.",
-      "Enhanced policy robustness via domain randomization and efficient human intervention pipelines, enabling production-level autonomous navigation.",
-      "Led open-source initiatives by releasing benchmarks (CostNav), datasets, and simulation tools to accelerate robot learning research."
+      "Deployed VLA navigation models (1B params) to 4 real-world sites, improving success rate from 75% to 97.3% through human intervention data collection and sim-to-real domain randomization.",
+      "Built multi-node training infrastructure: 5x storage reduction (video compression), 2x I/O throughput (Ceph), 3x training speedup (DeepSpeed ZeRO Stage 2, 4+ nodes, Slurm).",
+      "Quantized VLA model to FP8 and deployed on NVIDIA Jetson Thor, collaborating with on-device deployment team on ROS2 inference pipeline.",
+      "Ran technical PoCs and field demos at orchards and golf courses, directly leading to 2 enterprise contracts with major Korean corporations.",
+      "Built benchmark environments and evaluation pipelines for D2E—1,300+ hour pretraining data pipeline, open-sourced with 8,200+ downloads.",
+      "Designed and open-sourced a navigation benchmark with economic cost modeling (simulation + 50-hour dataset + eval tools). Supervised SNU research intern.",
+      "Selected as lead developer of the World Foundation Model for a government national project (IITP, 340B KRW / $25M budget, 2026–2027)."
     ]
   },
   {
     "role": "Research Scientist",
     "company": "Maum AI",
-    "location": "Seongnam, S.Korea",
+    "location": "Seongnam, South Korea",
     "period": "May 2024 - Oct. 2024",
     "bullets": [
-      "Led the ideation and fundamental research for commonsense-aware navigation system CANVAS, accepted to ICRA 2025.",
-      "Designed comprehensive evaluation protocols spanning NVIDIA Isaac Sim and real-world environments.",
-      "Developed the foundational data pipeline for large-scale teleoperation collection and model training."
+      "Designed CANVAS, a VLA navigation framework controlled via sketches and natural language—published at ICRA 2025, awarded NeurIPS Workshop 2024 Outstanding Paper (top 3 of 100).",
+      "Built the COMMAND dataset (48 hours, 219 km of real-world driving) and multi-container inference architecture used in all subsequent VLA deployments.",
+      "Designed evaluation protocols in NVIDIA Isaac Sim and real-world environments, establishing the data collection and sim-to-real pipeline for the team.",
+      "Filed 2 Korean patents on robot control via sketch and natural language commands."
     ]
   },
   {
     "role": "Machine Learning Researcher",
     "company": "Deargen Inc.",
-    "location": "Seoul, S.Korea",
+    "location": "Seoul, South Korea",
     "period": "Apr. 2022 - Apr. 2024",
     "bullets": [
-      "Developed the overall Drug Target Interaction (DTI) model architecture and conducted data crawling and processing.",
-      "Created a fine-tuning framework and provided services to an international big pharma corporation.",
-      "Developed a reinforcement learning model to enhance pocket-conditioned 3D molecule generation model."
+      "Built end-to-end Drug-Target Interaction pipeline (crawling, model design, training, eval) and delivered a custom fine-tuning service to a global big pharma client.",
+      "Designed PPO reward shaping for pocket-conditioned 3D molecule generation—published at ICLR 2024 Workshop, filed as Korean patent."
     ]
   }
 ]
