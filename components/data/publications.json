@@ -33,8 +33,16 @@
     "conference": "CVPR 2026 2nd Workshop on Human-Interactive Generation and Editing (HiGen) Proceeding Track",
     "links": [
       {
-        "name": "openreview",
-        "url": "https://openreview.net/forum?id=esQLQYSVVN"
+        "name": "website",
+        "url": "https://editcrafter.github.io/"
+      },
+      {
+        "name": "arxiv",
+        "url": "https://arxiv.org/abs/2604.10268"
+      },
+      {
+        "name": "code",
+        "url": "https://github.com/EditCrafter/EditCrafter"
       }
     ]
   },
