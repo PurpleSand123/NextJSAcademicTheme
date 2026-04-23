@@ -32,8 +32,8 @@
         "link": "https://control.kaist.ac.kr/Professor"
       }
     },
-    "specialization": "Artificial Intelligence and Reinforcement Learning",
-    "interest": "Robotics, Autonomous Navigation, Vision-Language-Action Models, Sim-to-Real Transfer, Data Pipelines, On-Device Inference, Diffusion Models, Reinforcement Learning"
+    "specialization": "Vision-Language-Action Models, Sim-to-Real transfer, large-scale training pipelines, and on-device inference for production-grade autonomous navigation systems",
+    "interest": "Robotics, Autonomous Navigation, Vision-Language-Action Models, Sim-to-Real Transfer, Data Pipelines, On-Device Inference, Reinforcement Learning, Diffusion Models"
   },
   "education": [
     {
