@@ -1,4 +1,5 @@
 import data from './data/experience.json';
+import renderInline from './renderInline';
 
 const Experience = (): JSX.Element => {
   return (
@@ -16,7 +17,7 @@ const Experience = (): JSX.Element => {
             {item.bullets && item.bullets.length > 0 && (
               <ul className="mt-2 list-disc list-inside text-sm text-gray-700 dark:text-gray-300 space-y-1">
                 {item.bullets.map((bullet: string, bulletIndex: number) => (
-                  <li key={bulletIndex}>{bullet}</li>
+                  <li key={bulletIndex}>{renderInline(bullet)}</li>
                 ))}
               </ul>
             )}

@@ -110,6 +110,10 @@
       {
         "name": "openreview",
         "url": "https://openreview.net/forum?id=hlzRzr9ksu"
+      },
+      {
+        "name": "code",
+        "url": "https://github.com/deargen/Pocket2Mol_RL_public"
       }
     ]
   },

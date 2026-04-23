@@ -1,4 +1,5 @@
 import data from './data/education.json';
+import renderInline from './renderInline';
 
 const Education = (): JSX.Element => {
   return (
@@ -14,7 +15,7 @@ const Education = (): JSX.Element => {
             {item.bullets && item.bullets.length > 0 && (
               <ul className="mt-2 list-disc list-inside text-sm text-gray-700 dark:text-gray-300 space-y-1">
                 {item.bullets.map((bullet: string, bulletIndex: number) => (
-                  <li key={bulletIndex}>{bullet}</li>
+                  <li key={bulletIndex}>{renderInline(bullet)}</li>
                 ))}
               </ul>
             )}

@@ -5,11 +5,11 @@
     "location": "Daejeon, S.Korea",
     "period": "Mar. 2020 - Mar. 2022",
     "bullets": [
-      "Advisor: Dong Eui Chang",
-      "Built an image-based autonomous guidewire navigation system (DDPG + Behavior Cloning) on a custom-built vascular phantom testbed, achieving Sim-to-Real transfer (IROS 2022).",
-      "Won the Grand Prize at the DAPA Autonomous Drone Competition (20+ teams) by developing 2D autonomous exploration; deployed on Jetson TX2 via Sim-to-Real transfer from Gazebo.",
-      "Led HD Korea Shipbuilding industry collaboration on ship-assistance drones, building GPS-based navigation with relative path planning.",
-      "Developed a real-time multivariate statistical anomaly detection system for quadrotor actuators (ICCAS 2020)."
+      "Advisor: [**Dong Eui Chang**](https://control.kaist.ac.kr/Professor)",
+      "Built an image-based autonomous guidewire navigation system (DDPG + Behavior Cloning) on a custom-built vascular phantom testbed, achieving Sim-to-Real transfer (**IROS 2022**).",
+      "Won the **Grand Prize at the DAPA Autonomous Drone Competition** (20+ teams) by developing 2D autonomous exploration; deployed on Jetson TX2 via Sim-to-Real transfer from Gazebo.",
+      "Led **HD Korea Shipbuilding** industry collaboration on ship-assistance drones, building GPS-based navigation with relative path planning.",
+      "Developed a real-time multivariate statistical anomaly detection system for quadrotor actuators (**ICCAS 2020**)."
     ]
   },
   {
