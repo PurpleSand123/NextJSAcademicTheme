@@ -36,7 +36,7 @@
     "interest": "Robotics, Autonomous Navigation, Vision-Language-Action Models, Sim-to-Real Transfer, Training Pipelines, On-Device Inference, Reinforcement Learning, Diffusion Models",
     "bio": [
       "My research sits at the intersection of **learning** and **embodiment** — I am drawn to the question of how machines can acquire not just knowledge, but the **skills to act reliably** in the world.",
-      "Over 4+ years, I have built and deployed autonomous navigation systems end-to-end — developing **VLA pipelines (1B–7B params)** deployed to **4 field sites** at a **97.3% success rate**, and shipping models to edge hardware (**Jetson Thor**, **FP8**). The work has been recognized at **IROS 2022**, **ICRA 2025**, and **ICLR 2026**, including a **NeurIPS 2024 Workshop Outstanding Paper** (top 3 of 100), and has led to **2 enterprise contracts** and my selection as lead developer for a **$25M government foundation model project**."
+      "Over 4+ years, I have built and deployed autonomous navigation systems end-to-end — developing **VLA pipelines (1B–7B params)** deployed to **4 field sites** at a **97.3% success rate**, and shipping models to edge hardware (**Jetson Thor**, **FP8**). The work has been recognized at **IROS 2022**, **ICRA 2025**, and **ICLR 2026**, including a **NeurIPS 2024 Workshop Outstanding Paper** (top 3 of 100), and has led to **2 enterprise contracts** and our team's selection to lead a **$25M government foundation model project**."
     ]
   },
   "education": [
